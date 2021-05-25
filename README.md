@@ -1,2 +1,2 @@
-# LeetCode
-This Repo Contains Solutions of Basic LeetCode Problems
+# Competitive Programming
+## This Repo Contains solutions of all problems which i solved in Online CP platforms like Codechef, Leet Code, etc....
