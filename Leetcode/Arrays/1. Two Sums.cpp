@@ -21,6 +21,6 @@ public:
             }
             hs[nums[i]] = i;
         }
-        return res; 
+        return res;
     }
 };
