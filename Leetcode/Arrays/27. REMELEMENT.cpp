@@ -7,17 +7,12 @@ Output: 2, nums = [2,2]
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
-        int n = nums.size();
-        for(int i =0;i<n;i++)
+        int j = 0;
+        for(int i =0;i<nums.size();i++)
         {
-            if(nums[i]== val)
-            {
-                for(int j=i+1;j<n;j++)
-                    nums[j-1] = nums[j];
-                n--;
-                i--;
-            }
+            if(nums[i]!=val)
+                swap(nums[i],nums[j++]);
         }
-    return n;
+    return j;
     }
 };
