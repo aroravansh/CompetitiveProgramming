@@ -104,7 +104,6 @@ public:
             numOfNodes++;
         }
     }
-
     /** Delete the index-th node in the linked list, if the index is valid. */
     void deleteAtIndex(int index) {
         if(index >= numOfNodes || head == NULL)
